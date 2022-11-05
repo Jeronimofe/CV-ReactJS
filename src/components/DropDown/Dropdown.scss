@@ -1,0 +1,12 @@
+.Dropdown{
+    grid-area:dropdown;
+    .select{
+        font-family: 'Merriweather', serif;
+        width: 200px;
+        height: 25px;
+        border: black solid 2px;
+        background-color: rgb(165, 140, 106);
+        color:whitesmoke;
+        border-radius: 5px;
+    }
+}

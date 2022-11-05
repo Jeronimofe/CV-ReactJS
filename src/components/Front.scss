@@ -1,0 +1,16 @@
+div{
+    grid-area: img;
+    .divImagenFront{
+        height: 100vh;
+        width: 40vw;
+        padding: 10px;
+        
+        .imagenFront{
+            width: 100%;
+            height: 100%;
+            border: gray solid 5px;
+            border-radius: 30px;
+        }
+    }
+}    
+    
