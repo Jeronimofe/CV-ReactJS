@@ -8,9 +8,7 @@ export const CV = {
         phone: "+540111530090811",
         image: {Imagen},
         gitHub: "https://github.com/Jeronimofe",
-        aboutMe: {
-            info: "Soy una persona comprometida con muchas ganas de participar en proyectos para ganar experiencia y contribuir de la mejor manera ya que considero que puedo ser de utilidad a cualquier equipo con el que me toque trabajar. Soy productivo y llevo de buena manera el trabajo en equipo pero soy igualmente capaz al trabajar de manera individual. Busco soluciones rápidas y efectivas a cualquier problema que surja durante el periodo laboral. Me encuentro en España con la intención de crecer como profesional y de seguir mi carrera universitaria en Física"
-        }                   
+        aboutMe: "Soy una persona comprometida con muchas ganas de participar en proyectos para ganar experiencia y contribuir de la mejor manera ya que considero que puedo ser de utilidad a cualquier equipo con el que me toque trabajar. Soy productivo y llevo de buena manera el trabajo en equipo pero soy igualmente capaz al trabajar de manera individual. Busco soluciones rápidas y efectivas a cualquier problema que surja durante el periodo laboral. Me encuentro en España con la intención de crecer como profesional y de seguir mi carrera universitaria en Física"                   
     },
     education: [
         {
@@ -37,6 +35,11 @@ export const CV = {
             name: "Curso de Diseño Web",
             date: "2020",
             where: "CoderHouse"
+        },
+        {
+            name: "Curso de primeros auxilios",
+            date: "2021",
+            where: "Cruz Roja Argentina"
         },
         {
             name: "Carrera de Desarrollo Web Full-Stack",
@@ -92,7 +95,7 @@ export const CV = {
     languages: {
         Ingles: "Avanzado",
         Español: "Nativo",
-        "Portugues de Brasil": "Básico" 
+        "Portugues (Brasil)": "Básico" 
     },
     habilities: [
         "Manejo Avanzado de Office",
@@ -105,8 +108,11 @@ export const CV = {
         "JavaScript",
         "PHP",
         "Sistemas de Gestion de contenidos o CMS",
-        "Git",
-        "Amplios conocimientos de Historia",
-        "Afición por la Física y la Astronomía"
+        "Git"
     ],
+    Aficiones:[
+        "Amplios conocimientos de Historia",
+        "Afición por la Física y la Astronomía",
+        "Conocimientos básicos de medicina y primeros auxilios"
+    ]
 };

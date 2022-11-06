@@ -4,6 +4,7 @@ import './Dropdown.scss'
 import Experiencia from './Exp/Experiencia';
 import Habilidades from './Habilidades/Habilidades';
 import InfoGeneral from './InfoGeneral/InfoGeneral';
+import { CV } from '../../Data/CV/cv';
 
 const Dropdown = () => {
 const [showInfo, setShowInfo]= useState(true);
@@ -101,13 +102,13 @@ function Funcion(){
             <InfoGeneral/>
             : <></>}
             {showexperience ?
-            <Experiencia/>
+            <Experiencia data={CV}/>
             : <></>}
             {showAcademico ?
-            <Academico/>
+            <Academico data={CV}/>
             : <></>}
             {showHabilidades ?
-            <Habilidades/>
+            <Habilidades data={CV}/>
             : <></>}
             </div>
             
